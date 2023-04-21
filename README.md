@@ -1,5 +1,6 @@
 # Exemplo de Envio e Recimento de dados via TCP/IP e Inserção no banco de dados MySQL
 
+![Descrição da Imagem](doc/captura.png)
 
 ## Tecnologias
 
