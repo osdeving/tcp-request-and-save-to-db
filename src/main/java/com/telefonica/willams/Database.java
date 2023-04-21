@@ -7,7 +7,7 @@ import java.sql.SQLException;
 
 public class Database {
     public void saveResponse(DataCLP dataCLP) {
-        String insertSQL = "INSERT INTO data_clp (bit_set, sensor1, sensor2) VALUES (?, ?, ?)";
+        String insertSQL = "INSERT INTO " + Constants.DB_TABLE + " (bit_set, sensor1, sensor2) VALUES (?, ?, ?)";
 
         try (
                 Connection connection = DriverManager.getConnection(Constants.DB_URL, Constants.DB_USER, Constants.DB_PASSWORD);
