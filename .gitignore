@@ -1,0 +1,36 @@
+# .gitignore
+
+# IntelliJ
+.idea/
+*.iml
+*.iws
+out/
+target/
+
+# VSCode
+.vscode/
+
+# Eclipse
+*.classpath
+*.project
+*.settings/
+.metadata/
+bin/
+tmp/
+temp/
+*.tmp
+*.bak
+
+# Java build artifacts
+*.class
+
+# Gradle and Maven
+.gradle/
+build/
+!gradle-wrapper.jar
+!gradle-wrapper.properties
+!gradlew
+!gradlew.bat
+.mvn/
+mvnw
+mvnw.cmd
