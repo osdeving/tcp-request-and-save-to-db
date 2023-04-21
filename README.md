@@ -48,7 +48,7 @@ $ docker exec -it mysql8 mysql -uadmin -p
 
 mysql> create database clp_alex;
 
-mysql> use database clp_alex;
+mysql> use clp_alex;
 
 mysql> CREATE TABLE data_clp (
     id INT AUTO_INCREMENT PRIMARY KEY,
